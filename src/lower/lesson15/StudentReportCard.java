@@ -79,7 +79,7 @@ public class StudentReportCard {
                 }
             }
         if (smallestAlphabetically!=current){;
-            String tempSubject = this.subjects[smallestAlphabetically]
+            String tempSubject = this.subjects[smallestAlphabetically];
             this.subjects[smallestAlphabetically] = this.subjects[current];
             this.subjects[current] = tempSubject;
             
